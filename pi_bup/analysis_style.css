@@ -1,0 +1,61 @@
+body {
+background-image: url(home_bg.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+box-sizing: border-box;
+color: #000;
+font-size: 1.8rem;
+letter-spacing: -0.015em;
+text-align: center;
+}
+
+
+#map {
+    margin-top:170;
+    height: 70%;
+    width:20%;
+    margin-right:auto;
+}
+
+/* Add a naviagtor bar in vertical view */
+.vertical-menu {
+background-color: #2C7DA0;
+margin-top:170px;    
+margin-left:auto;
+margin-right:auto;
+font-family: serif;
+font-size:20px;
+color:white;
+width:20%;
+}
+
+
+.vertical-menu a {
+    color: white; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 10px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+    background-color: transparent;
+    backdrop-filter: blur(100px);
+}
+
+.vertical-menu a:hover {
+    background-color: rgba(255,255,255,0.5) ; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+    background-color: #036e9c; /* Add a green color to the "active/current" link */
+    color: white;
+}
+
+.btn_bar {
+    margin-left:auto;
+    background:none;
+    width:100%;
+    border: none;
+    cursor: pointer;
+    color:white;
+    font-family: serif;
+    font-weight: normal;
+    font-size:20px;
+}

@@ -1,0 +1,113 @@
+body {
+background-image: url(home_bg.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+box-sizing: border-box;
+font-size: 1.8rem;
+letter-spacing: -0.015em;
+text-align: center;
+}
+
+table {
+margin-top:170px;
+margin-right:auto;    
+margin-left:auto;
+width:80%
+}
+
+container {
+font-size:1px;
+}
+
+tm{
+    background-color: rgba(255,255,255,0.5) ;
+}
+
+th {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+background: #03254C;
+color: #FFF;
+padding: 8px 6px;
+border-collapse: separate;
+
+}
+
+td {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 17px;
+color: #240273;
+border: 1px solid #CCC;
+}
+
+.btn_page {
+background:#fff;
+color:#7f7f7f;
+text-decoration:none;
+margin-right:10px;
+font-size: 25px;
+border: 1px solid #DDD;
+}
+
+.php_page {
+text-align: right;
+margin-top:20px;
+}
+
+.php_page.a {
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.php_page a.btn_active {
+    border: 1px solid #2C7DA0; /* Add a green color to the "active/current" link */
+    background:#fff;
+    color:#7f7f7f;
+    text-decoration:none;
+    margin-right:10px;
+    font-size: 25px;
+}
+
+/* Add a naviagtor bar in vertical view */
+.vertical-menu {
+background-color: #2C7DA0;
+margin-top:170px;
+margin-left:auto;  
+margin-right:auto;
+font-family: serif;
+font-size:20px;
+color:white;
+width:20%;
+}
+
+
+.vertical-menu a {
+    color: white; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 10px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+    background-color: transparent;
+    backdrop-filter: blur(100px);
+}
+
+.vertical-menu a:hover {
+    background-color: rgba(255,255,255,0.5) ; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+    background-color: #036e9c; /* Add a green color to the "active/current" link */
+    color: white;
+}
+
+.btn_bar {
+    margin-left:auto;
+    background:none;
+    width:100%;
+    border: none;
+    cursor: pointer;
+    color:white;
+    font-family: serif;
+    font-weight: normal;
+    font-size:20px;
+}

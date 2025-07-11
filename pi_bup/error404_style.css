@@ -1,0 +1,10 @@
+body {
+background-image: url(error.jpg); 
+background-repeat: no-repeat;
+background-size: cover;
+box-sizing: border-box;
+color: #000;
+font-size: 1.8rem;
+letter-spacing: -0.015em;
+text-align: center;
+}
